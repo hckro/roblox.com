@@ -1,0 +1,299 @@
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+body {
+    background-image: url('Roblox Background.jpg');
+    background-color: #000;
+    background-size: 100% auto; 
+    background-position: center -80.4px; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.roblox-footer {
+    position: absolute;
+    bottom: -168px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    padding-bottom: 20px;
+    padding-top: 85px;
+    z-index: 100;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 30px;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.privacy-icon {
+    height: 14px;
+    vertical-align: middle;
+    margin-left: 4px;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid #393b3d;
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto 15px auto;
+}
+
+.footer-copyright {
+    text-align: center;
+    color: #ffffff;
+    font-size: 11px;
+    padding: 0 20px;
+    opacity: 0.8;
+}
+
+.footer-copyright p {
+    margin: 0;
+    line-height: 1.4;
+}
+.login-card {
+  background-color: #2b2d32;
+  padding: 15px;
+  padding-top: 16px;
+  margin-bottom: -40px;
+  height: 490px;
+  width: 361px;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: 700;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background-color: #393b41;
+  border: 1px solid #45474b;
+  border-radius: 8px;
+  color: white;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+input:focus {
+  outline: none;
+  border: 1px solid white;
+}
+input::placeholder {
+  color: #dfd7d7;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  color: rgb(175, 175, 175);
+  margin-top: 5px;
+}
+
+.btn-primary:hover {
+  color: rgb(220, 220, 220);
+}
+
+.btn-secondary {
+  background-color: #393b41;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.btn-secondary:hover {
+  background-color: #4a4d53;
+}
+
+.forgot-link {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+.divider {
+  height: 1px;
+  background-color: #45474b;
+  margin: 20px 0;
+}
+
+.signup-text {
+  font-size: 16px;
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+.signup-text a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+.Shadow{
+    background-color: rgba(7, 7, 7, 0.52); 
+    width: 100%; 
+    height: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: -1;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  padding: 19.5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(27, 27, 27);
+  border-bottom: 1px solid rgb(31, 31, 31);
+  box-sizing: border-box;
+}
+.header-menu-right{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 65%;
+}
+.Sign-in{
+  position: absolute;
+  right: 18px; 
+  top: 6px;
+  background-color: rgb(0, 0, 248);
+  width: 76px;
+  height: 30px;
+}
+.Sign-in-text{
+  color: white;
+  font-family: sans-serif;
+  position: absolute;
+  right: 27px;
+  top: 10px;
+  z-index: 100;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 640;
+}
+.Sign-in-logo{
+  position: absolute;
+  top: 5px;
+  left: 13px;
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1);
+}
+.Sign-in-Links{
+  color: white;
+}
+.s1{
+  position: absolute;
+  left: 75px;
+  top: 9px;
+  color: white;
+}
+.s2{
+  position: absolute;
+  left: 178px;
+  top: 9px;
+  color: white;
+}
+.s3{
+  position: absolute;
+  left: 323px;
+  top: 9px;
+  color: white;
+}
+.s4{
+  position: absolute;
+  left: 425px;
+  top: 9px;
+  color: white;
+}
+.A1{
+  padding-left: 34px; 
+  width: 338px; 
+  height: 28px; 
+  position: absolute; 
+  left: 498px; 
+  top: 6px; 
+  outline: none; 
+  background-color: rgb(34, 34, 34);
+  border: 1px solid #3a3a3a;
+  font-size: 16.3px;
+}
+.A1:focus{
+  border: 1px solid #686868;
+}
+.A1::placeholder{
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 640;
+}
+.A2-icon{
+  position: absolute;
+  left: 504.7px; 
+  top: 11px;
+  width: 18px;
+  height: 17.5px;
+  filter: brightness(0) invert(0.75);
+}
+.glow {
+  box-shadow:
+    0 0 5px rgba(0, 162, 255, 0.5),
+    0 0 15px rgba(0, 162, 255, 0.3),
+    0 0 30px rgba(0, 162, 255, 0.2);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
